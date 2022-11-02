@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>제목</title>
+    <title>about</title>
     <link rel="stylesheet" href="../common/minireset.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
@@ -18,16 +18,16 @@
             font-family: 'Noto Sans KR', sans-serif;
             width: 100%;
             margin: 0 auto;
-            max-width: 1920px;
             text-align: center;
         }
         .container {
             margin: 0 auto;
+            width: 100%;
         }
 
         .container h1 {
             font-family: 'Noto Sans KR', sans-serif;
-            font-size: 40px;
+            font-size: 50px;
             font-weight: bold;
             letter-spacing: -0 3px;
             line-height: 1;
@@ -43,20 +43,26 @@
              }
 
        .container .title1 {
-            font-size: 40px;
+            font-size: 50px;
             color:#666666;
-            font-weight: bold;
-            line-height: 1;
+            font-weight: 400;
+            line-height: 1.2;
             padding: 50px;
+            margin-top:120px ;
+            margin-bottom: 100px;
+            
         }
         .container .title1 strong {
             color:#000;
+            font-weight: 600;
         }
         .container .title_photo2 {
             width:100%; 
+            /* max-width: 1240px; */
+            margin: 0 auto;
             height:420px; 
             display:block; 
-            background:url('./images/info_img01.png') no-repeat;
+            background: url('./images/info_img01.png') no-repeat;
             background-position: 50% 50%;
         }
 
@@ -67,11 +73,11 @@
         .main {
             width: 1240px;
             position: relative;
-            margin: 0 321px;
-
+            margin: 0 auto;
         }
         .txt_box1 {
-            margin-top: 180px;
+            margin-top: 160px;
+
         }
         .txt_box1 .txtbox1 {
             display: block;
@@ -79,7 +85,7 @@
         }
         
         .txt_box1 h2 {
-            width: 605px;
+            width: 605px; 
             box-sizing: border-box;
             font-size: 40px;
             font-weight: bold;
@@ -103,7 +109,7 @@
         }
 
         .txt_photo2 {
-            margin-top: 111px;
+            margin-top: 60px;
             float: left;
         }
         
@@ -112,7 +118,7 @@
             font-size: 40px;
             font-weight: bold;
             text-align: left;
-            float:left;
+            float: left;
             margin-top: 162px;
             margin-left: 80px;
         }
@@ -126,23 +132,98 @@
             margin-top: 40px;
             float: left;
         }
+
+        /*    아   랫   부   분    */
+
         .box3 {
-            clear: both;
-            background-color: #d1d1d1;
-            
+            height: 705px;
+            margin: 0 auto;
+            background-color: #ebebeb;
+            margin-top: 160px;
+            padding : 80px 321px;
         }
 
+        .box3 h3 {
+            width: 1240px;
+            font-size: 40px;
+            font-weight: bold;
+            text-align: left;
+            margin: 0 auto;
+        }
+
+        .box3 p {
+            width: 1240px;
+            font-size: 20px;
+            color:#666666;
+            text-align: left;
+            padding-top: 40px;
+            padding-bottom: 60px;
+            line-height: 1.5;
+            margin: 0 auto;
+        }
+
+        .box3 .info_photo img {
+            max-width: 800px;
+            min-width: 20%;
+        }
+
+        .info h3 {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: left;
+            display: block;
+            width: 1240px;
+            padding: 160px 321px 40px;
+        }
+        .info ul {
+            font-size: 20px;
+            font-style: 'Roboto', '맑은 고딕', '나눔고딕', sans-serif;
+            color:#666666;
+            display: block;
+            float: left;
+            padding-left: 315px;
+            margin-bottom: 100px;
+        }
+
+        .info ul li {
+            display: block;
+            float: left;
+            padding : 8px;
+            line-height: 0.9;
+        }
+
+        .info ul .list5 {
+            clear: both;
+        }
+
+        .list2{
+            text-indent: 18px;
+        } 
+        
+        .list3 {
+            text-indent: 30px;
+        }
+
+        .list4 {
+            text-align: left;
+            line-height: 0.8;
+        }
+
+        .list3, .list7 {
+            te;
+        }
 
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container clearfix">
         <h1>회사소개</h1>
-        <div class="title_photo"></div>
+        <div class="title_photo" alt="가장 상단의 남성 손"></div>
         <h2 class="title1">상상인 증권과 함께 그리는 상상은<br>
         <strong>더나은 내일의 새로운 시작</strong>이 됩니다.</h2>
-        <div class="title_photo2"></div>
-        <div class="main">
+
+        <div class="main clearfix">
+        <div class="title_photo2" alt="여성이 위에 올려다 보는 사진"></div>
             <section class="txt_box1 clearfix">
                 <div class="txtbox1">
                     <h2>상상, 사람人, IN</h2>
@@ -164,30 +245,27 @@
                     사람, 공동체, 세상과 더불어 사회와의 이로운 동행을 하고자 합니다.</p>
                 </div>
             </section>
+            </div>
             <div class="box3">
                 <h3>누구나 마음껏 상상하고 꿈꿀 수 있도록</h3>
                 <p>사람의 가치가 곧 기업의 가치라는 인간중심의 경영, 더 나은 방향을 제시하고 고객의 성공을 도와주는 고객중심의 경영, 새로운 분야를 두려워하지 않는<br>
                 미래지향 경영을 통해 사회와 동반자가 되어 함께 나아가겠습니다.</p>
-                <img src="./images/info_img04.png">
+                <div class="info_photo"><img src="./images/info_img04.png"></div>
             </div>
             <div class="info">
                 <h3>회사 정보</h3>
                 <ul>
-                    <li>회사명</li>
-                    <li>상상인증권</li>
-                    <li>소재지</li>
-                    <li>서울시 영등포구 여의대로 108 파크원 타워1 48-49</li>
-                    <li>대표이사</li>
-                    <li>이명수, 임태중</li>
-                    <li>설립일</li>
-                    <li>1954년 8월</li>
+                    <li class="list1">회사명</li>
+                    <li class="list2">상상인증권</li>
+                    <li class="list3">소재지</li>
+                    <li class="list4">서울시 영등포구 여의대로 108 파크원 타워1<br>48·49층</li>
+                    <li class="list5">대표이사</li>
+                    <li class="list6">이명수, 임태중</li>
+                    <li class="list7">설립일</li>
+                    <li class="list8">1954년 8월</li>
                 </ul>
             </div>
     </div>
-
-
-
-
     </div>
 
 </body>
