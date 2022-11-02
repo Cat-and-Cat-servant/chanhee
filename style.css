@@ -1,6 +1,40 @@
 @charset "utf-8";
-
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0 auto;
+    text-align: center;
+}
 .container{
     width: 1920px;
-    margin: 0 auto;
+    /* margin: 0 96px; */
+    background-color: #ddd;
+}
+.container header{
+    height: 100px;
+    background-color: aqua;
+}
+
+
+main .banner .banner_img{
+    width: 1728;
+    height: 584px;
+   position: relative;
+}
+main .banner #banner_arrow_left{
+    position: absolute;
+    top :311px;
+    left:168px;
+}
+main .banner #banner_arrow_right
+{
+    position: absolute;
+    top:311px;
+    right:127px;
+}
+.first_visit{
+    margin: 94px auto;
 }
