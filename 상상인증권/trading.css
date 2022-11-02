@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+
+.container {
+    font-family: 'Roboto', '나눔고딕', '맑은 고딕', '돋움', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    top: 0;
+    max-width: 1920px; min-width: 1020px;
+    text-align: center;
+}
+
+.container h1 {
+    width: 100%; height: 230px;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 230px;
+    text-align: center;
+}
+.title_img {
+    background: url(image/title_img03_4.png) center no-repeat;
+    width: 100%;
+    height: 360px;
+    margin: 0 auto 120px auto;
+    overflow: hidden;
+}
+
+.container > h2 {
+    font-size: 40px;
+    line-height: 1.6;
+    margin: 0 0 120px;
+    font-weight: 700;
+}
+section {
+    width: 604px; height: 403px;
+    background-color: #eff3f5;
+    /* float: left; */
+    padding: 39px 60px 60px 60px;
+    margin: 0;
+}
+.box1 {
+    margin: 0 35px 0 212px;
+}
+.box2 {
+    margin:-403px 35px 0 851px;
+}
+p {
+    width: 485px;
+    text-align:left;
+    font-size: 20px;
+    color: #888;
+    margin-bottom: 66px;
+}
+h4 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 29px;
+    text-align: left;
+}
+button {
+    width: 485px; height: 66px;
+    background-color: #009f95;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+}
+.qr {
+    float: left;
+    background-position: 10px;
+    margin-left: 10px;
+}
+.box2 p {
+    margin-bottom: 20px;
+}
