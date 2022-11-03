@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>헤더</title>
+    <link rel="stylesheet" href="../common/minireset.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;}
+
+        .container {width: 100%;
+        }
+        
+
+    </style>
+
+<body>
+<div class="container clearfix">
+    <header class="clearfix">
+        <h2><a href="#"><img src="./images/logo.png"></a></h2>
+        <div class="login">
+            <button type="submit">로그인</button>
+            <button type="submit">ID관리</button>
+        </div>
+        <nav>
+            <ul id="gnb">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">트레이딩</a></li>
+                <li><a href="#">상품소개</a></li>
+                <li><a href="#">리서치</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">소비자보호포털</a></li>
+                <li><a href="#">채용정보</a></li>
+                <li class="ham"><a href="#"><img src="./images/ham.png"></a>
+            </ul>
+        </nav>
+    </header>
+</div>
+</body>
+</html>
