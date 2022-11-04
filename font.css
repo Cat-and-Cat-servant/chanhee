@@ -3,7 +3,7 @@
 @font-face {
     font-family: 'NotoSans';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-display: swap;
     src: url(./font/NotoSansKR-Bold.woff2) format('woff2');
 }
@@ -24,7 +24,7 @@
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-display: swap;
     src: url(./font/Roboto-Bold.woff2) format('woff2');
 }
