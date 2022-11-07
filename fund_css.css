@@ -1,0 +1,211 @@
+@charset "utf-8";
+ 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+    body {
+        font-family: 'Noto Sans KR', sans-serif;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 1200;
+        margin: 0 auto;
+        text-align: center;}
+
+    .container {
+        margin: 0 auto;
+        width: 100%;}
+    
+    .container h1 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: -0 3px;
+        line-height: 1;
+        text-align: center;
+        padding: 80px;
+    }
+
+    .container .title_photo {
+        width:100%; 
+        height:420px; 
+        display:block; 
+        background:url(./images/title_img04_1.png) no-repeat;
+        background-position: 50% 50%; }
+    
+    .section1 {
+        width: 1240px;
+        font-size: 28px;
+        font-weight: bold;
+        margin: 40px auto;
+        padding: 41px 0;
+        border-bottom: 1px solid #e8e8e8;
+    }
+
+    .section1 ul {
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section1 ul li a {
+        color:#888888;
+        text-decoration: none;
+    }
+    
+    .section1 li:nth-child(2n) a{
+        color: #009f95;
+        border-bottom: #009f95 solid 3px;
+    }
+
+    .section2 {
+        font-family: 'Noto Sans KR', sans-serif;
+        width: 1240px;
+        margin: auto;     
+    }
+
+    .section2 ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .section2 ul li select {
+        width: 300px;
+        height: 60px;
+        font-size: 18px;
+        outline: none;
+        border:1px solid #e5e5e5e5;
+    }
+
+    .section2 li input {
+        width: 785px;
+        height: 60px;
+        outline: none;
+        font-size: 18px;
+        border:1px solid #e5e5e5e5;
+    }
+
+    .section2 li button {
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        color:#fff;
+        background-color: #009f95;
+        border: 1px transparent solid;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .section3 p {
+        width: 1240px;
+        text-align: left;
+        margin: auto;
+        font-size: 16px;
+        padding: 30px 0;
+        position: relative;
+        left:10px;
+    }
+
+    .section3 p span {
+        color:#009f95;
+        font-weight: 500;
+    }
+
+    .section4 {
+        margin: 0 auto;
+        width: 1240px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .section4 th {
+        font-size: 20px;
+        background-color: #f9f9f9f9;
+        border-top:#d3d3d3 1px solid;
+    }
+
+   .section4 .one {
+        width: 153px; height: 69px;
+   }
+   .section4 .two {
+     width: 310px; height: 69px;
+   }
+
+   .section4 .three {
+    width: 174px;
+   }
+
+   .section4 .four {
+    width: 124px;
+   }
+
+   .section4 .five {
+    width: 136;
+   }
+
+   .section4 .six {
+    width: 74px;
+   }
+
+   .section4 .seven {
+    width: 124px;
+   }
+
+   .section4 .eight {
+    width: 145px;
+   }
+
+   td {
+    color:#888888;
+    padding : 25px 3px;
+    margin: 10px;
+    border-bottom: 1px solid #e8e8e8;
+   }
+
+   table .black {
+    font-size: 20px;
+    color:#222222;
+    text-align: left;
+   }
+
+   .section5 ul {
+    width: 622px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px auto;
+   }
+
+   .section5 ul li a {
+    text-decoration: none;
+    color:#222222;
+    border-radius: 50%;
+    background-color: #fff;
+    font-weight: bold;
+    padding: 5px 13px; 
+    /* letter-spacing: 17px; */
+   }
+
+   .section5 ul li a:hover {
+    background-color: #009f95;
+    color: #fff;
+    
+   }
+
+   .section5 ul li .circle {
+    background-color: #009f95;
+    color: #fff;
+   }
+   
+   .section6 {
+    width: 1240px;
+    display: inline-block;
+    padding: 40px 40px;
+    background: #F7FCFC;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 120px;
+    color:#222222;
+   }

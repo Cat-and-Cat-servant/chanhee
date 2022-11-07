@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./font/NotoSansKR-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./font/NotoSansKR-Medium.woff2) format('woff2'); 
+}
+@font-face {
+    font-family: 'NotoSans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./font/NotoSansKR-Regular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(./font/Roboto-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(./font/Roboto-Medium.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./font/Roboto-Regular.woff2) format('woff2');
+}

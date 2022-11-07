@@ -1,230 +1,232 @@
     @charset "utf-8";
     
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
     .clearfix::after {
-        content: "";
-        display: block;
-        clear: both;
-      }
+    content: "";
+    display: block;
+    clear: both;
+  }
 
-        body {
-            font-family: 'Noto Sans KR', sans-serif;
-            width: 100%;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .container {
-            margin: 0 auto;
-            width: 100%;
-        }
+    body {
+        font-family: 'Noto Sans KR', sans-serif;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .container {
+        margin: 0 auto;
+        width: 100%;
+    }
 
-        .container h1 {
-            font-family: 'Noto Sans KR', sans-serif;
-            font-size: 50px;
-            font-weight: bold;
-            letter-spacing: -0 3px;
-            line-height: 1;
-            text-align: center;
-            padding: 80px;
-        }
-        .container .title_photo {
-            width:100%; 
-            height:420px; 
-            display:block; 
-            background:url(./images/title_img02_1.png) no-repeat;
-            background-position: 50% 50%;
-             }
+    .container h1 {
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: -0 3px;
+        line-height: 1;
+        text-align: center;
+        padding: 80px;
+    }
+    .container .title_photo {
+        width:100%; 
+        height:420px; 
+        display:block; 
+        background:url(./images/title_img02_1.png) no-repeat;
+        background-position: 50% 50%;
+         }
 
-       .container .title1 {
-            font-size: 50px;
-            color:#666666;
-            font-weight: 400;
-            line-height: 1.2;
-            padding: 50px;
-            margin-top:120px ;
-            margin-bottom: 100px;
-            
-        }
-        .container .title1 strong {
-            color:#000;
-            font-weight: 600;
-        }
-        .container .title_photo2 {
-            width:100%; 
-            /* max-width: 1240px; */
-            margin: 0 auto;
-            height:420px; 
-            display:block; 
-            background: url('./images/info_img01.png') no-repeat;
-            background-position: 50% 50%;
-        }
-
-      /*    중간시작    */
-
-        .main {
-            width: 1240px;
-            position: relative;
-            margin: 0 auto;
-        }
-        .txt_box1 {
-            margin-top: 160px;
-
-        }
-        .txt_box1 .txtbox1 {
-            display: block;
-            float: left;
-        }
+   .container .title1 {
+        font-size: 50px;
+        color:#666666;
+        font-weight: 400;
+        line-height: 1.2;
+        padding: 50px;
+        margin-top:120px ;
+        margin-bottom: 100px;
         
-        .txt_box1 h2 {
-            width: 605px; 
-            box-sizing: border-box;
-            font-size: 40px;
-            font-weight: bold;
-            text-align: left;
-        }
-        
-        .txt_box1 .txtbox1 p {
-            width: 602px;
-            box-sizing: border-box;
-            font-size: 18px;
-            color:#666666;
-            text-align: left;
-            padding: 20px;
-            line-height: 1.7;
-        }
-
-        .txt_box .txt_photo1 {
-            width: 602%;
-            display: block;
-            float: left;
-        }
-
-        .txt_photo2 {
-            margin-top: 60px;
-            float: left;
-        }
-        
-        .txtbox2 h2 {
-            width: 545px;
-            font-size: 40px;
-            font-weight: bold;
-            text-align: left;
-            float: left;
-            margin-top: 162px;
-            margin-left: 80px;
-        }
-
-        .txtbox2 p {
-            width: 545px;
-            color:#666666;
-            font-size: 18px;
-            line-height: 1.7;
-            margin-left: 80px;
-            margin-top: 40px;
-            float: left;
-        }
-
-        /*    아   랫   부   분    */
-
-        .box3 {
-            height: 705px;
-            margin: 0 auto;
-            background-color: #ebebeb;
-            margin-top: 160px;
-            /* padding : 80px 321px; */
-            padding: 80px 0;
-            max-width: 1940px;
-            min-width: 1240px;
+    }
+    .container .title1 strong {
+        color:#000;
+        font-weight: 600;
+    }
     
-        }
+    .container .title_photo2 {
+        width:100%; 
+        /* max-width: 1240px; */
+        margin: 0 auto;
+        height:420px; 
+        display:block; 
+        background: url('./images/info_img01.png') no-repeat;
+        background-position: 50% 50%;
+    }
 
-        .box3 h3 {
-            width: 1240px;
-            font-size: 40px;
-            font-weight: bold;
-            text-align: left;
-            margin: 0 auto;
-        }
+  /*    중간시작    */
 
-        .box3 p {
-            width: 1240px;
-            font-size: 20px;
-            color:#666666;
-            text-align: left;
-            padding-top: 40px;
-            padding-bottom: 60px;
-            line-height: 1.5;
-            margin: 0 auto;
-        }
+    .main {
+        width: 1240px;
+        position: relative;
+        margin: 0 auto;
+    }
+    .txt_box1 {
+        margin-top: 160px;
 
-        .box3 .info_photo img {
-            max-width: 800px;
-            min-width: 20%;
-        }
+    }
+    .txt_box1 .txtbox1 {
+        display: block;
+        float: left;
+    }
+    
+    .txt_box1 h2 {
+        width: 605px; 
+        box-sizing: border-box;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .txt_box1 .txtbox1 p {
+        width: 602px;
+        box-sizing: border-box;
+        font-size: 18px;
+        color:#666666;
+        text-align: left;
+        padding: 20px;
+        line-height: 1.7;
+    }
 
-        .info h3 {
-            font-size: 40px;
-            font-weight: 600;
-            text-align: left;
-            display: block;
-            width: 1240px;
-            margin-bottom: 40px;
-            /* padding: 160px 321px 40px; */
-        }
+    .txt_box .txt_photo1 {
+        width: 602%;
+        display: block;
+        float: left;
+    }
 
-        .info {
-            height: 400px;
-            margin: 0 auto;
-            /* margin-top: 160px; */
-            /* padding : 80px 321px; */
-            padding: 60px 0;
-            max-width: 1240px;
-            min-width: 1240px;
-        }
+    .txt_photo2 {
+        margin-top: 60px;
+        float: left;
+    }
+    
+    .txtbox2 h2 {
+        width: 545px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+        float: left;
+        margin-top: 162px;
+        margin-left: 80px;
+    }
 
-        .info ul {
-            font-size: 20px;
-            font-style: 'Roboto', '맑은 고딕', '나눔고딕', sans-serif;
-            color:#666666;
-            display: block;
-            float: left;
-            /* padding-left: 315px; */
-            margin-bottom: 100px;
-        }
+    .txtbox2 p {
+        width: 545px;
+        color:#666666;
+        font-size: 18px;
+        line-height: 1.7;
+        margin-left: 80px;
+        margin-top: 40px;
+        float: left;
+    }
 
-        .info ul li {
-            display: block;
-            float: left;
-            padding : 8px;
-            line-height: 0.9;
-        }
+    /*    아   랫   부   분    */
 
-        .info ul .list5 {
-            clear: both;
-        }
+    .box3 {
+        height: 705px;
+        margin: 0 auto;
+        background-color: #ebebeb;
+        margin-top: 160px;
+        /* padding : 80px 321px; */
+        padding: 80px 0;
+        max-width: 1920px;
+        min-width: 1240px;
 
-        .list2{
-           position: relative;
-           left : 20px;
-        } 
-        
-        .list3 {
-            position: relative;
-            left : 75px;
-        }
+    }
 
-        .list4 {
-            position: relative;
-            left: 115px;
-            text-align: left;
-            line-height: 0.8;
-        }
+    .box3 h3 {
+        width: 1240px;
+        font-size: 40px;
+        font-weight: bold;
+        text-align: left;
+        margin: 0 auto;
+    }
 
-        .list7 {
-            position: relative;
-            left: 25px;
-        }
+    .box3 p {
+        width: 1240px;
+        font-size: 20px;
+        color:#666666;
+        text-align: left;
+        padding-top: 40px;
+        padding-bottom: 60px;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
 
-        .list8 {
-            position: relative;
-            left:70px;
-        }
+    .box3 .info_photo img {
+        max-width: 800px;
+        min-width: 20%;
+    }
+
+    .info h3 {
+        font-size: 40px;
+        font-weight: 600;
+        text-align: left;
+        display: block;
+        width: 1240px;
+        margin-bottom: 40px;
+        /* padding: 160px 321px 40px; */
+    }
+
+    .info {
+        height: 400px;
+        margin: 0 auto;
+        /* margin-top: 160px; */
+        /* padding : 80px 321px; */
+        padding: 60px 0;
+        max-width: 1240px;
+        min-width: 1240px;
+    }
+
+    .info ul {
+        font-size: 20px;
+        font-style: 'Roboto', '맑은 고딕', '나눔고딕', sans-serif;
+        color:#666666;
+        display: block;
+        float: left;
+        /* padding-left: 315px; */
+        margin-bottom: 100px;
+    }
+
+    .info ul li {
+        display: block;
+        float: left;
+        padding : 8px;
+        line-height: 0.9;
+    }
+
+    .info ul .list5 {
+        clear: both;
+    }
+
+    .list2{
+       position: relative;
+       left : 20px;
+    } 
+    
+    .list3 {
+        position: relative;
+        left : 75px;
+    }
+
+    .list4 {
+        position: relative;
+        left: 115px;
+        text-align: left;
+        line-height: 0.8;
+    }
+
+    .list7 {
+        position: relative;
+        left: 25px;
+    }
+
+    .list8 {
+        position: relative;
+        left:70px;
+    }
