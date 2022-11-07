@@ -16,7 +16,7 @@ body{
 .container{
     /* max-width: 1920px;
     width: 100vw; */
-    background-color: #ddd;
+    /* background-color: #ddd; */
 
 }
 .container header{
@@ -110,7 +110,8 @@ main .rolling ul .rolling_last{width: 50px;}
 main .rolling ul .rolling_img{width: 50px; margin-top: 43px;}
 
 main .product{
-    margin: 92px 340px 0;
+    margin: 92px 0 0 340px;
+    width: 1240px;
     height: 500px;
 }
 
@@ -130,16 +131,18 @@ main .product p{
 main .product .more_content{
     position: absolute;
     left: 1520px;
+    /* left: 1560px; */
     text-align: right;
     
 }
 main .product .more_content a img{margin: 28px 0 0 3px; }
-main .product ul{width: 1238px; height: 228px; float: left;}
+main .product ul{width: 1240px; float: left;}
 main .product ul li{
     border: solid 1px #e8e8e8;
     float: left;
     margin-top: 50px;
-    width: 309px;height: 228px;
+    /* width: 309px; */width: 25%;
+    height: 228px;
     font-weight: 700;
 }
 main .product .product_content{
@@ -190,12 +193,16 @@ main .cash_info p{
 }
 main .cash_info ul{
     display: flex;
+    width: 1240px;
 }
+
 main .cash_info ul li{
     margin: 52px 13px 0 0;
     border: 1px solid #e8e8e8;
     border-radius: 15px;
-    width: 400px; height: 218px;
+    /* width: 400px;  */
+    width: 33.3333%;
+    height: 218px;
 }
 main .cash_info ul li .cash_info_detail{
     margin: 44px 42px;
@@ -216,19 +223,22 @@ main .cash_info ul li  .cash_info_detail a{
     position: absolute;
     top: 108px; left: 110px;
     text-decoration: none;
-    color: #000;
+    color: #222;
     font-size: 15px;
     font-weight: 700;
 }
+main .cash_info ul .detail1{background-color: #f5f5f5;}
+main .cash_info ul .detail2{background-color: #fdf7f0;}
+main .cash_info ul .detail3{background-color: #f0f8fb; margin-right: 0;}
 main .last_menu{
    display: flex;
     background-color: #f5f5f5; 
+    height: 564px;
 }
 main .last_menu article{
     padding: 100px 0;
-    border: 1px solid #000; 
     width: 600px;
-    margin: 0 40px;
+    margin: 0 20px;
     position: relative;
 }
 main .last_menu article h2{  
@@ -244,13 +254,23 @@ main .last_menu article .detail{
     position: absolute;
     top: 148px;
     right: 0;
+    width: 80px;
     color: #88888c;
-    
   
 }
+
 main .last_menu article .detail a{
  text-decoration: none;
  color: #88888c;font-size: 16px;
+ margin-left: 7px;
+}
+main .last_menu article .detail .detail-1{
+    margin-left: 20px;
+}
+main .last_menu article .detail img{
+    position: absolute;
+    top: 3px;
+    right: 0;
 }
 main .last_menu .t_voice{
       margin-left: 340px;
@@ -260,29 +280,42 @@ main .last_menu .t_voice video{
     height: 240px;
     background-color: #d9d9d9;
 }
-main .lastmenu article .last_menu_item{
+main .last_menu article .last_menu_item{
     /* margin-top: 63px; */
     width: 600px;
     height: 240px;
 }
+main .last_menu .sangsang{
+    margin-right: 0;
+}
 main .notice{
-    margin-left: 340px ;
+    border-bottom: 1px solid #e8e8e8;  
     height: 110px;
-    border: 1px solid #e8e8e8;
-    /* display: flex; */
+}
+main .notice .notice_con{
+    height: 110px;
+    margin-left: 340px ;
+    width: 1240px;
 }
 main .notice .notice_title{
     position: relative;
-    margin: 45px 0;
+
 }
 main .notice .notice_title h3{
     font-weight: 700;
     position: absolute;
+    top: 46px;
 }
 main .notice .notice_title a img{
   position: absolute;
-  left: 105px;
+  left: 90px;
+  top: 49px;
 }
-main .notice .notice_des{
+main .notice .notice_con .notice_des{
     margin-left: 235px;
+    position: relative;
 }
+main .notice .notice_con .notice_des p{position: absolute; top: 46px;}
+main .notice .notice_con .notice_des img{position: absolute; top: 46px; right: 100px;}
+main .notice .notice_con .notice_des .button_up{position: absolute; top: 38px;}
+main .notice .notice_con .notice_des .button_down{position: absolute; top: 61px;}
