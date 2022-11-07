@@ -11,75 +11,121 @@
     <link rel="stylesheet" href="./style.css">
     <style>
     </style>
-</head>
+    </head>
 <body>
     <div class="container">
       <header>#</header>
       <main>
         <div class="banner">
             <img src="./main_img/SS0002_1_1.png" alt="banner" class="banner_img">
+         
+            <div class="banner_arrow">  
+                <img src="./main_img/btn_main_swiper_prev.png" alt="이전" id="arrow_left"> 
+            
+                 <img src="./main_img/btn_main_swiper_next.png" alt="다음" id="arrow_right">
+           </div>
+        </div>
 
-            <img src="./main_img/btn_main_swiper_prev.png" alt="이전" id="banner_arrow_left">
-            <img src="./main_img/btn_main_swiper_next.png" alt="다음" id="banner_arrow_right">
 
-    </div>
         <article class="first_visit">
-            <h2>상상인증권에<br>처음 오셨나요?</h2>
+           <div class="visit_welcome">
+         <h2>상상인증권에<br>처음 오셨나요?</h2>
             <p>상상인에서 쉽고 빠르게 도와드릴게요.</p>
+            </div>
 
-            <ul>
-                <li>계좌개설안내<a href="#">바로가기</a></li>
-                <li>트레이딩 안내<a href="#">바로가기</a></li>
-                <li>인증센터<a href="#">바로가기</a></li>
+            <ul class="clearfix">
+                <li><img src="./main_img/main_icon01.svg" alt="icon1"><p class="visit_title">계좌개설안내</p><a href="#">바로가기</a></li>
+                <li><img src="./main_img/main_icon02.svg" alt="icon2"><p class="visit_title">트레이딩 안내</p><a href="#">바로가기</a></li>
+                <li><img src="./main_img/main_icon03.svg" alt="icon3"><p class="visit_title">인증센터</p><a href="#">바로가기</a></li>
             </ul>
         </article>
         <div class="rolling">
-
+            <ul class="clearfix">
+                <li class="m-left"><p >존스</p><span>32,732.95</span> <div class="decreas"><img src="./main_img/decrease.svg" alt="하향"><p>-128.85</p></div></li>
+                <li><p>나스닥종합</p><span>10.988.14</span> <div class="decreas"><img src="./main_img/decrease.svg" alt="하향"><p>-114.3</p></div></li>
+                <li><p>S&P500</p><span>3,871.98</span> <div class="decreas"><img src="./main_img/decrease.svg" alt="하향"><p>-29.08</p></div></li>
+                <li><p>상해종합</p><span>2,893.48</span> <div class="decreas"><img src="./main_img/decrease.svg" alt="하향"><p>0</p></div></li>
+                <li class="rolling_last"><p>NIKK</p></li>
+                <li class="rolling_img"><img src="./main_img/ico_main_swiper_stop.png" alt="하향"></li>
+            </ul>
         </div>
+        
         <article class="product">
             <h2>상상인과의 이로운 상품</h2>
             <p>차별화된 상상인의 상품을 만나세요.</p>
+            
+                <div class="more_content">
+            <p>더보기</p> <a href="#"><img src="./main_img/more_content.svg" alt="더보기 화살표"></a>
+         
+        </div>
             <ul>
-                <li><div class="tag">#업계 최저금리</div>신용거래융자 <img src="./main_img/btn_view_detail_s.png" alt="더보기"></li>
-                <li><div class="tag">#컨설턴트 1대1 상담</div>비상장주식<img src="./main_img/btn_view_detail_s.png" alt="더보기"></li>
-                <li><div class="tag">#feat.상상인저축은행</div>연계신용거래 (스탁론)<img src="./main_img/btn_view_detail_s.png" alt="더보기"></li>
-                <li><div class="tag">#업계 최저금리</div>펀드(Fund)<img src="./main_img/btn_view_detail_s.png" alt="더보기"></li>
+                <li><div class="product_content"><span class="tag">#업계 최저금리</span><p class="product_title">신용거래융자</p><a href="#"><img src="./main_img/btn_view_detail_s.png" alt="더보기"></a></div></li>
+                <li><div class="product_content"><span class="tag">#컨설턴트 1대1 상담</span><p class="product_title">비상장주식</p><a href="#"><img src="./main_img/btn_view_detail_s.png" alt="더보기"></a></div></li>
+                <li><div class="product_content"><span class="tag">#feat. 상상인저축은행</span><p class="product_title">연계신용거래 (스탁론)</p><a href="#"><img src="./main_img/btn_view_detail_s.png" alt="더보기"></a></div></li>
+                <li><div class="product_content"><span class="tag">#주식 모르면 펀드!</span><p class="product_title">펀드(Fund)</p><a href="#"><img src="./main_img/btn_view_detail_s.png" alt="더보기"></a></div></li>
             </ul>
         </article>
-        <article class="info">
+        <article class="cash_info">
             <h2>상상 그 이상 알찬 투자정보</h2>
             <p>알찬 투자정보를 확인하세요.</p>
             <ul>
-                <li>상상인 Macro Daily 221101 
+                <li>
+                    <div class="cash_info_detail">
+                    상상인 Macro Daily 221101 
                     <p>2022.11.01</p>
-                    <p>|</p>
+                    <span>|</span>
                     <a href="#">주식시황 ></a>
+                    </div>
                 </li>
-                <li>기술력 높고!확장성 크고 vs 매크로우려 영향? 보호예수 물량 소화 과...
+                <li>
+                    <div class="cash_info_detail">
+                    기술력 높고!확장성 크고 vs 매크로우려 영향? 보호예수 물량 소화 과...
                     <p>2022.10.28</p>
-                    <p>|</p>
+                    <span>|</span>
                     <a href="#">산업리포트 ></a>
+                    </div>
                 </li>
-                <li>파트론(091700):센서/전장향이 성장을 다시 이끈다
+                <li>
+                    <div class="cash_info_detail">
+                    파트론(091700):센서/전장향이 성장을 다시 이끈다
                     <p>2022.11.01</p>
-                    <p>|</p>
+                    <span>|</span> 
                     <a href="#">기업리포트 ></a>
+                    </div>
                 </li>
             </ul>
         </article>
-        <article class="last_info">
-            <h3>보이스피싱 피해예방</h3>
+        <div class="last_menu">
+        <article class="t_voice">
+            <h2>보이스피싱 피해예방</h2>
             <p>금융감독원 보이스피싱 피해예방 홍보영상 입니다.</p>
-            <div class="detail">더보기 <img src="./main_img/more_content.svg" alt="더보기"></div>
+            <div class="detail"><a href="#">더보기 <img src="./main_img/more_content.svg" alt="더보기"></a></div>
 
             <div class="video">
-                <video src="https://player.vimeo.com/video/751461081?loop=1" controls poster="./main_img/1510717876-aab8e0b42fa1cc8e82bfed1882101fd0de0a069005e211842a961c0c272a9504-d.avif"></video>
+                <video src="https://player.vimeo.com/video/751461081?loop=1" muted autoplay controls poster="./main_img/1510717876-aab8e0b42fa1cc8e82bfed1882101fd0de0a069005e211842a961c0c272a9504-d.avif" ></video>
             </div>
         </article>
         <article>
-            <h3>상상</h3>
+            <h2>상상人</h2>
+            <p>꿈을 함께 공유할 인재들을 기다리고 있습니다.</p>
+            <div class="detail"><a href="#">채용공고 <img src="./main_img/more_content.svg" alt="더보기"></a></div>
+
+            <img src="./main_img/main_img02.png" alt="상상인이미지" class="last_menu_item">
+        </article>
+        </div>
+        <article class="notice">
+            <div class="notice_title">
+            <h3>공지사항 </h3>
+            <a href="#"><img src="./main_img/icon_arrow.png" alt="공지사항_더보기"></a>
+            </div>
+            <div class="notice_des">
+            <p>인증센터 정기점검 안내공지 - 2022.10.28 (금)  </p>
+            <img src="./main_img/up_btn.svg" alt="위쪽화살표">
+            <img src="./main_img/down_btn.svg" alt="아래쪽화살표">
+            </div>
         </article>
       </main>
     </div>
+</div>
 </body>
 </html>

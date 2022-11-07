@@ -7,46 +7,282 @@
 
 body{
     margin: 0;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #000;
 }
 .container{
-    width: 1920px;
+    /* max-width: 1920px;
+    width: 100vw; */
     background-color: #ddd;
-    box-sizing: border-box;
+
 }
 .container header{
-    /* width: 100vw; */
     height: 100px;
     background-color: aqua;
 }
-main{
-    width: 100vw;
+.container main{
+    width: 100%;
 }
-main .banner{
-    /* width: 100vw; */ 
-     
+.container main .banner{
+    width: 1728px; 
+    margin: 0 96px;
+    position: relative;
 }
 .container main .banner .banner_img{
-    width: 1728px;
-    height: 584px;
-    margin: 0 96px;
- 
+    width: 1728px;  
+    height: 584px; 
+}
+main .banner .banner_arrow #arrow_left{ position: absolute; top: 247px; left: 144px;}
+main .banner .banner_arrow #arrow_right{position: absolute; top: 247px; right: 144px;}
+
+main .first_visit{
+    margin: 92px 340px 0;
+    height: 228px;
+}
+main .first_visit .visit_welcome{width: 282px; float: left;}
+main .first_visit h2{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+main .first_visit p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+}
+main .first_visit ul{
+    padding: 0;
+    margin-left: 480px;
+    display: flex;
+
+}
+main .first_visit ul li{
+    width: 33.3333%;
+    margin-right: 100px;
+    text-align: center;
+    float: left;
+    
+}
+main .first_visit ul .visit_title{
+    color: #000;
+    font-size: 19px;
+}
+main .first_visit ul li p{margin-bottom: 25px; font-weight: 800;}
+main .first_visit ul li a{
+     text-decoration: none; color: #000; 
+     border: 1px solid #e8e8e8; 
+     padding: 5px; 
+     font-family: 'NotoSans','Roboto','맑은 고딕',sans-serif;
+     font-weight: 400; font-size: 13px;
+    }
+
+main .rolling{
+    height: 100px;
+    background-color: #f5f5f5;
+    line-height: 100px;
+}
+main .rolling ul{padding: 0; height: 100px;}
+main .rolling ul li{
+    margin-right: 17px;
+    float: left; 
+    width: 280px;
+    
+}
+
+main .rolling ul li span{
+    font-weight: 700;
+    float: left;
+    margin-right: 20px;
+}
+main .rolling ul li p{
+    font-weight: 300;
+    float: left;
+    margin-right: 20px;
+}
+main .rolling ul .m-left{margin-left: 340px;}
+main .rolling ul .decreas{display: flex; font-size: 17px; font-weight: 700; color: #0085ff;}
+main .rolling ul .decreas img{margin: 5px 5px 0 0;}
+main .rolling ul .decreas p{font-weight: 700;}
+main .rolling ul .rolling_last{width: 50px;}
+main .rolling ul .rolling_img{width: 50px; margin-top: 43px;}
+
+main .product{
+    margin: 92px 340px 0;
+    height: 500px;
+}
+
+main .product h2{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+main .product p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+    float: left;
     position: relative;
-
-   
-}
-.banner main .banner #banner_arrow_left{  
-    float: left;
-    position: absolute;
-    top: 247px; left: 144px;
-}
-.banner main .banner #banner_arrow_right{
-    float: left;
-    position: absolute;
-    top: 247px; right: 144px;
 }
 
+main .product .more_content{
+    position: absolute;
+    left: 1520px;
+    text-align: right;
+    
+}
+main .product .more_content a img{margin: 28px 0 0 3px; }
+main .product ul{width: 1238px; height: 228px; float: left;}
+main .product ul li{
+    border: solid 1px #e8e8e8;
+    float: left;
+    margin-top: 50px;
+    width: 309px;height: 228px;
+    font-weight: 700;
+}
+main .product .product_content{
+
+     height: 228px;
+     position: relative;
+}
+main .product ul li .tag{
+    background-color: #e5f8f7; color: #4ebdb6;
+    border-radius: 20px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 50px; left: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+main .product ul li p{
+    color: #000;
+    font-size: 20px;
+}
+
+main .product ul li .product_title{
+    position: absolute;
+    top:80px;
+    left: 55px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+main .product ul li .product_content a img{
+    position: absolute;
+    top: 150px;
+    right: 34px;
+
+}
+main .cash_info{
+    margin-left: 340px ;
+    height: 500px;
+}
+main .cash_info h2{  
+     font-weight: 700;
+    font-size: 30px;
+}
+main .cash_info p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+}
+main .cash_info ul{
+    display: flex;
+}
+main .cash_info ul li{
+    margin: 52px 13px 0 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 15px;
+    width: 400px; height: 218px;
+}
+main .cash_info ul li .cash_info_detail{
+    margin: 44px 42px;
+    font-size: 20px;
+    position: relative;
+}
+main .cash_info ul li  .cash_info_detail p{
+    position: absolute;
+    top: 80px;
+}
+main .cash_info ul li  .cash_info_detail span{
+    position: absolute;
+    top: 107px; left: 90px;
+    color: #888;
+    font-size: 13px;
+}
+main .cash_info ul li  .cash_info_detail a{
+    position: absolute;
+    top: 108px; left: 110px;
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-weight: 700;
+}
+main .last_menu{
+   display: flex;
+    background-color: #f5f5f5; 
+}
+main .last_menu article{
+    padding: 100px 0;
+    border: 1px solid #000; 
+    width: 600px;
+    margin: 0 40px;
+    position: relative;
+}
+main .last_menu article h2{  
+    font-weight: 700;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+main .last_menu article p{
+   margin: 20px 0 63px;
+   font-size: 16px;
+}
+main .last_menu article .detail{
+    position: absolute;
+    top: 148px;
+    right: 0;
+    color: #88888c;
+    
+  
+}
+main .last_menu article .detail a{
+ text-decoration: none;
+ color: #88888c;font-size: 16px;
+}
+main .last_menu .t_voice{
+      margin-left: 340px;
+}
+main .last_menu .t_voice video{
+    width: 600px;
+    height: 240px;
+    background-color: #d9d9d9;
+}
+main .lastmenu article .last_menu_item{
+    /* margin-top: 63px; */
+    width: 600px;
+    height: 240px;
+}
+main .notice{
+    margin-left: 340px ;
+    height: 110px;
+    border: 1px solid #e8e8e8;
+    /* display: flex; */
+}
+main .notice .notice_title{
+    position: relative;
+    margin: 45px 0;
+}
+main .notice .notice_title h3{
+    font-weight: 700;
+    position: absolute;
+}
+main .notice .notice_title a img{
+  position: absolute;
+  left: 105px;
+}
+main .notice .notice_des{
+    margin-left: 235px;
+}
