@@ -1,0 +1,416 @@
+@charset "utf-8";
+body {
+    font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif;
+}
+
+header {
+    max-width: 1920px; min-width: 1200px;
+    height: 100px;
+    font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif;
+    font-weight: 100;
+}
+
+/* -------------------------- */
+.login {
+    padding: 38px 0 0 140px;
+    float: left;
+}
+.login > h1 {
+    float: left;  
+}
+.login > em a {
+    width: 63px; height: 30px;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #222;
+    padding: 5px 8px;
+    float: left;  
+    border: 1px solid #e8e8e8;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+.mg1 {
+    margin-left: 18px;
+}
+.mg2 {
+    margin-left: 10px;
+    margin-right: 382px;
+}
+
+/* -------------------------------- */
+
+ul {
+    margin: 0;
+}
+.gnb {
+    height: 100px;
+    display: flex;
+}
+li a, li img {
+    display: block;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #222;
+    padding: 38px 7px;
+    /* width: 100px; */
+    margin-right: 35px;
+    font-weight: 100;
+    width: 88px;
+
+}
+li:nth-child(4) a {
+    width: 70px;
+}
+li:nth-child(6) a {
+    width: 143px;
+}
+.gnb li:hover a {
+    border-bottom: 5px solid #009f95;
+    font-weight: 700;
+}
+nav > p {
+    width: 30px;
+    position: absolute;
+    top: 34px; left: 1710px;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+main{
+    margin: 0;
+    /* text-align: center; */
+    font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.container{
+    /* max-width: 1920px;
+    width: 100vw; */
+    /* background-color: #ddd; */
+
+}
+.container main{
+    width: 100%;
+}
+.container main .banner{
+    width: 1728px; 
+    margin: 0 96px;
+    position: relative;
+}
+.container main .banner .banner_img{
+    width: 1728px;  
+    height: 584px; 
+}
+main .banner .banner_arrow #arrow_left{ position: absolute; top: 247px; left: 144px;}
+main .banner .banner_arrow #arrow_right{position: absolute; top: 247px; right: 144px;}
+
+main .first_visit{
+    margin: 92px 340px 0;
+    height: 228px;
+}
+main .first_visit .visit_welcome{width: 282px; float: left;}
+main .first_visit h2{
+    font-weight: 700;
+    font-size: 36px;
+
+}
+main .first_visit p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+}
+main .first_visit ul{
+    padding: 0;
+    margin-left: 480px;
+    display: flex;
+
+}
+main .first_visit ul li{
+    width: 33.3333%;
+    margin-right: 100px;
+    text-align: center;
+    float: left;
+    
+}
+main .first_visit ul .visit_title{
+    color: #000;
+    font-size: 19px;
+}
+main .first_visit ul li p{margin-bottom: 25px; font-weight: 800;}
+main .first_visit ul li a{
+     text-decoration: none; color: #000; 
+     border: 1px solid #e8e8e8; 
+     padding: 5px; 
+     font-family: 'NotoSans','Roboto','맑은 고딕',sans-serif;
+     font-weight: 400; font-size: 13px;
+    }
+
+main .rolling{
+    height: 100px;
+    background-color: #f5f5f5;
+    line-height: 100px;
+}
+main .rolling ul{padding: 0; height: 100px;}
+main .rolling ul li{
+    margin-right: 17px;
+    float: left; 
+    width: 280px;
+    
+}
+
+main .rolling ul li span{
+    font-weight: 700;
+    float: left;
+    margin-right: 20px;
+}
+main .rolling ul li p{
+    font-weight: 300;
+    float: left;
+    margin-right: 20px;
+}
+main .rolling ul .m-left{margin-left: 340px;}
+main .rolling ul .decreas{display: flex; font-size: 17px; font-weight: 700; color: #0085ff;}
+main .rolling ul .decreas img{margin: 5px 5px 0 0;}
+main .rolling ul .decreas p{font-weight: 700;}
+main .rolling ul .rolling_last{width: 50px;}
+main .rolling ul .rolling_img{width: 50px; margin-top: 43px;}
+
+main .product{
+    margin: 92px 0 0 340px;
+    width: 1240px;
+    height: 500px;
+}
+
+main .product h2{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+main .product p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+    float: left;
+    position: relative;
+}
+
+main .product .more_content{
+    position: absolute;
+    left: 1520px;
+    /* left: 1560px; */
+    text-align: right;
+    
+}
+main .product .more_content a img{margin: 28px 0 0 3px; }
+main .product ul{width: 1240px; float: left;}
+main .product ul li{
+    border: solid 1px #e8e8e8;
+    float: left;
+    margin-top: 50px;
+    /* width: 309px; */width: 25%;
+    height: 228px;
+    font-weight: 700;
+}
+main .product .product_content{
+
+     height: 228px;
+     position: relative;
+}
+main .product ul li .tag{
+    background-color: #e5f8f7; color: #4ebdb6;
+    border-radius: 20px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 50px; left: 40px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+main .product ul li p{
+    color: #000;
+    font-size: 20px;
+}
+
+main .product ul li .product_title{
+    position: absolute;
+    top:80px;
+    left: 55px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+main .product ul li .product_content a img{
+    position: absolute;
+    top: 150px;
+    right: 34px;
+
+}
+main .cash_info{
+    margin-left: 340px ;
+    height: 500px;
+}
+main .cash_info h2{  
+     font-weight: 700;
+    font-size: 30px;
+}
+main .cash_info p{
+    margin-top: 26px;
+    color: #88888c;
+    font-size: 16px;
+}
+main .cash_info ul{
+    display: flex;
+    width: 1240px;
+}
+
+main .cash_info ul li{
+    margin: 52px 13px 0 0;
+    border: 1px solid #e8e8e8;
+    border-radius: 15px;
+    /* width: 400px;  */
+    width: 33.3333%;
+    height: 218px;
+}
+main .cash_info ul li .cash_info_detail{
+    margin: 44px 42px;
+    font-size: 20px;
+    position: relative;
+}
+main .cash_info ul li  .cash_info_detail p{
+    position: absolute;
+    top: 80px;
+}
+main .cash_info ul li  .cash_info_detail span{
+    position: absolute;
+    top: 107px; left: 90px;
+    color: #888;
+    font-size: 13px;
+}
+main .cash_info ul li  .cash_info_detail a{
+    position: absolute;
+    top: 108px; left: 110px;
+    text-decoration: none;
+    color: #222;
+    font-size: 15px;
+    font-weight: 700;
+}
+main .cash_info ul .detail1{background-color: #f5f5f5;}
+main .cash_info ul .detail2{background-color: #fdf7f0;}
+main .cash_info ul .detail3{background-color: #f0f8fb; margin-right: 0;}
+main .last_menu{
+   display: flex;
+    background-color: #f5f5f5; 
+    height: 564px;
+}
+main .last_menu article{
+    padding: 100px 0;
+    width: 600px;
+    margin: 0 20px;
+    position: relative;
+}
+main .last_menu article h2{  
+    font-weight: 700;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+main .last_menu article p{
+   margin: 20px 0 63px;
+   font-size: 16px;
+}
+main .last_menu article .detail{
+    position: absolute;
+    top: 148px;
+    right: 0;
+    width: 80px;
+    color: #88888c;
+  
+}
+
+main .last_menu article .detail a{
+ text-decoration: none;
+ color: #88888c;font-size: 16px;
+ margin-left: 7px;
+}
+main .last_menu article .detail .detail-1{
+    margin-left: 20px;
+}
+main .last_menu article .detail img{
+    position: absolute;
+    top: 3px;
+    right: 0;
+}
+main .last_menu .t_voice{
+      margin-left: 340px;
+}
+main .last_menu .t_voice video{
+    width: 600px;
+    height: 240px;
+    background-color: #d9d9d9;
+}
+main .last_menu article .last_menu_item{
+    /* margin-top: 63px; */
+    width: 600px;
+    height: 240px;
+}
+main .last_menu .sangsang{
+    margin-right: 0;
+}
+main .notice{
+    border-bottom: 1px solid #e8e8e8;  
+    height: 110px;
+}
+main .notice .notice_con{
+    height: 110px;
+    margin-left: 340px ;
+    width: 1240px;
+}
+main .notice .notice_title{
+    position: relative;
+
+}
+main .notice .notice_title h3{
+    font-weight: 700;
+    position: absolute;
+    top: 46px;
+}
+main .notice .notice_title a img{
+  position: absolute;
+  left: 90px;
+  top: 49px;
+}
+main .notice .notice_con .notice_des{
+    margin-left: 235px;
+    position: relative;
+}
+main .notice .notice_con .notice_des p{position: absolute; top: 46px;}
+main .notice .notice_con .notice_des img{position: absolute; top: 46px; right: 100px;}
+main .notice .notice_con .notice_des .button_up{position: absolute; top: 38px;}
+main .notice .notice_con .notice_des .button_down{position: absolute; top: 61px;}
