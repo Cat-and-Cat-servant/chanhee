@@ -1,0 +1,38 @@
+@charset "utf-8";
+body{
+    font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif; 
+}
+
+/* ----------------main------------- */
+.portal_main{
+    max-width: 1920px; min-width: 1200px;text-align: center;
+}
+h1{
+    height: 230px;
+    line-height: 230px;
+   font-weight: 700;
+    font-size: 50px; color: #222;
+}
+.banner_img{
+    width: 100vw; height: 360px;
+    margin-bottom: 120px;
+    background: url(../images/potal/title_img07_02.png) no-repeat 50%/cover;
+}
+.area{
+    width: 100vw; height: 653px;  margin-bottom: 120px;
+
+}
+ul{width: 1240px; height: 135px; display: flex; justify-content: center;
+padding-bottom: 30px; border-bottom: 1px solid #e8e8e8; margin: 0 auto 120px auto; position: relative;}
+ul li{width: 248px; font-weight: 700;color: #888;font-size: 28px;}
+ul li:nth-child(1){color: #009f95; }
+ul li span{border-bottom: #009f95 2px solid; }
+ul li::before{
+    content: "";
+    display: block;
+    border-right: 1px solid #e8e8e8;
+    height: 20px;
+    position: absolute;
+   top: 20px;
+}
+ul li:nth-child(1)::before{content: "";border-right: none;}
