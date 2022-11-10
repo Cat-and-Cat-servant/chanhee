@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+.container {
+    font-family: 'Roboto','Noto Sans KR',돋움 sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+    top: 0;
+    max-width: 1920px; min-width: 1020px;
+    text-align: center;
+    color: #222;
+}
+
+.container h1 {
+    width: 100%; height: 230px;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    line-height: 230px;
+    text-align: center;
+}
+.title_img {
+    background: url(../image/title_img06_1.png) center no-repeat;
+    width: 100%;
+    height: 360px;
+    margin: 0 auto 120px auto;
+    overflow: hidden;
+}
+.container h2 {
+    text-align: center;
+    min-width: 1240px;
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 0 0 120px;
+    font-weight: 700;
+}
+
+/* --------------------------- */
+
+#inner {
+    background-color: #f4fafa;
+}
+main {
+    width: 100%;
+    display: flex;
+    /* list-style-position: outside; */
+    font-size: 18px;  
+    margin: 0 222px;
+}
+ul {
+    width: 310px; 
+    height: 326px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-right: none;
+    padding: 40px;
+    margin-bottom: 140px;
+}
+ul:nth-child(4) {
+    border-right: 1px solid #e8e8e8;
+}
+li {
+    padding-bottom: 10px;
+    text-align: left;
+}
+.txt::before {
+    content: "-";
+}
+.txt {
+    color: #888;
+}
+
+/* --------------------------- */
+
+
+#nob {
+    text-align: left;
+}
+span {
+    font-size: 18px;
+    color: #888;
+}
+strong {
+    font-size: 20px;
+}
+p {
+    font-size: 40px;
+    font-weight: 700;
+    color: #009f95;
+    font-style: normal;
+    justify-content: flex-start;
+
+}
+#nob {
+    display: flex;
+    margin-top: 140px;
+    padding: 0;
+}
+.consulting1, .consulting3 {
+    margin-left: 222px;
+
+}
+.consulting2, .consulting4 {
+    margin-left: 40px;
+    margin-top: 5px;
+
+}
