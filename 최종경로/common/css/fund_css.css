@@ -260,9 +260,12 @@ table .black {
     clear: both;
 }
 .section5 li {
-    width: 1200px;
+    width: 1200px; 
     margin-left: auto;
+    position: relative;
+    right: 35px;
 }
+
 .section5 li a {
     width: 30px; height: 30px;
     padding-top: 10px;
@@ -285,6 +288,19 @@ table .black {
 .section5 li:nth-child(1) a {
     background-color: #009f95;
     color: #fff;
+}
+
+.section5 li img {
+    width: 22px;
+    position: relative;
+    top: -24px; left: 4px;
+}
+
+.section5 li:nth-child(12) a img {
+    width: 30px;
+    position: relative;
+    left: 1px; bottom: 2px;
+    
 }
 /* .section5 ul {
  width: 622px; height: 100px;
@@ -325,7 +341,7 @@ table .black {
     
     float: left;
     margin-top: 60px;left: 1200px;
-    padding: 30px;
+    padding: 30px 20px;
 }
 
 
