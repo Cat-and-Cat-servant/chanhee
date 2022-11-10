@@ -117,9 +117,10 @@ nav > p > a{
     padding-bottom: 30px; border-bottom: 1px solid #e8e8e8; 
     margin: 0 auto 120px auto; position: relative;
     }
-.portal_main .area ul li a{width: 248px; font-weight: 700;color: #888;font-size: 28px; text-align: center;padding: 0;  margin: 0;}
+.portal_main .area ul li a{
+    width: 248px; font-weight: 700;color: #888;font-size: 28px; text-align: center;padding: 0;  margin: 0;}
 .portal_main .area ul li:nth-child(1){color: #009f95; }
-.portal_main .area ul li span{border-bottom: #009f95 2px solid; }
+.portal_main .area ul li span{border-bottom: #009f95 2px solid;  color: #009f95;}
 .portal_main .area ul li::before{
     content: "";
     display: block;
