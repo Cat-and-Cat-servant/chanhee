@@ -139,7 +139,7 @@ nav > p > a{
     margin: auto;     
     }
 
- .section1 ul {
+ .section1 > ul {
     display: flex;
     justify-content: space-evenly;
     font-size: 18px;
@@ -279,16 +279,29 @@ td {
     left: 7px;
    }
 
-   
    .section4 {
-    clear: both;
-}
-.section4 {
-    clear: both;
-}
-.section4 li {
     width: 1200px;
-    margin-left: auto;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+    .section4 li img {
+        width: 22px;
+        position: relative;
+        top: -24px; left: 4px;
+    }
+
+    .section4 li:nth-child(12) a img {
+        width: 30px;
+        position: relative;
+        left: 1px; bottom: 2px;
+        
+    }
+
+.section4 li {
+    /* width: 1200px; */
+    /* margin-left: auto; */
 }
 .section4 li a {
     width: 30px; height: 30px;
