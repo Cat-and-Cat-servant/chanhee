@@ -215,6 +215,11 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+.section4 table tr a {
+    text-decoration: none;
+    color:#222222;
+}
 .section4 th {
     font-size: 20px;
     background-color: #f9f9f9f9;
