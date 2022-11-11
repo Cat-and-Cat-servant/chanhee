@@ -199,7 +199,7 @@ main .first_visit ul li a{
     position: relative;
     margin-bottom: 120px;
 }
-main .rolling ul{display: flex;  width: 1240px; height: 100px; line-height: 100px; margin-left: 340px;}
+main .rolling ul{display: flex;  width: 1240px; height: 100px; line-height: 100px; margin: 0 287.778px;}
 main .rolling ul li{color: #666; display: flex; width: 290px;}
 main .rolling ul .rolling_last{width: 41px;}
 main .rolling ul li p{font-size: 18px; margin-right: 20px;}
@@ -217,7 +217,8 @@ main .rolling ul li .decrease_icon::before{
 main .rolling img{
     width: 7px;height: 10px;
     position: absolute;
-    left: 1580px; top: 45px;
+    /* left: 1580px; top: 45px; */
+    left: 1522px; top: 45px;
 }
 main .product{
     width: 1240px; height: 407.16px;
