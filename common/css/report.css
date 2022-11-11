@@ -299,14 +299,9 @@ td {
     .section4 li:nth-child(12) a img {
         width: 30px;
         position: relative;
-        left: 1px; bottom: 2px;
-        
+        left: 1px; bottom: 2px;   
     }
 
-.section4 li {
-    /* width: 1200px; */
-    /* margin-left: auto; */
-}
 .section4 li a {
     width: 30px; height: 30px;
     padding-top: 10px;

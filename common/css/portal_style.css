@@ -1,3 +1,5 @@
+
+
 @charset "utf-8";
 
 body {
@@ -93,6 +95,7 @@ nav > p > a{
 }
 
 .main-title h1{
+    width: 1902px;
     height: 230px;
     line-height: 230px;
    font-weight: 700;
@@ -100,7 +103,7 @@ nav > p > a{
     text-align: center;
 }
 .banner_img{
-    width: 100%; height: 360px;
+    width: 1902px; height: 360px;
     margin-bottom: 120px;
     background: url(../images/sb/title_img07_02.png) no-repeat;
     background-size: cover;
@@ -109,7 +112,7 @@ nav > p > a{
 }
 
 .area{
-    width: 100%; height: 653px;  margin-bottom: 120px;
+    width: 1902px; height: 653px;  margin-bottom: 120px;
     line-height: 2;
 
 }
@@ -135,7 +138,8 @@ nav > p > a{
 .portal_main .area ul li:nth-child(1) a { color: #009f95;}
 
 .portal_main .area ul li:nth-child(1)::before{content: "";border-right: none;}
-.portal_main .area p{margin: 0 412.5px; width: 100%;}
+.portal_main .area p{margin: 0 412.5px; width: 1240px; height: 398px;}
+.portal_main .area p img{width: 1020px; height: 398px;}
 
 /* ------------------footer----------------- */
 
