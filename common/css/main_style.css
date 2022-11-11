@@ -1,7 +1,7 @@
 @charset "utf-8";
 body {
     font-family: 'NotoSans', 'Roboto','맑은 고딕',sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 header {
@@ -139,7 +139,8 @@ main .banner .banner_arrow #arrow_right{
 main .first_visit{
     width: 1240px;
     height: 320px;
-    margin: 0 331.594px;
+    margin: 0 287.778px;
+    /* margin: 0 331.594px; */
     display: flex;
  
 }
@@ -192,8 +193,7 @@ main .first_visit ul li a{
     border: 1px solid #e8e8e8;
 }
  main .rolling{
-    /* width: 1903.2px; */
-    width: 1920px;
+    width: 1902px;
     height: 100px;
     background-color: #e8e8e8;
     position: relative;
@@ -221,7 +221,8 @@ main .rolling img{
 }
 main .product{
     width: 1240px; height: 407.16px;
-    margin: 0 331.612px 70px 331.594px;
+    margin: 0 287.778px;
+    /* margin: 0 331.612px 70px 331.594px; */
 }
 main .product .product_title{
     width: 1240px;height: 74px;
@@ -284,9 +285,11 @@ main .product ul li a img{
     top: 120px;bottom: 19.8px;
     left: 200px;
 }
+
 main .cash_info{
     width: 1240px; height: 347.18px;
-    margin: 0 331.612px 70px 331.594px;
+    margin: 0 287.778px;
+    /* margin: 0 331.612px 0 331.594px; */
 }
 main .cash_info h2{   
     font-weight: 700;
@@ -354,7 +357,7 @@ main .cash_info ul li .cash_info_detail div .report{
 
 }
 main .last_menu{
-    width: 1920px; height: 564px;
+    width: 1902px; height: 564px;
     background-color: #f5f5f5;
  
 }
@@ -435,6 +438,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
 
 /* ------------------footer----------------- */
 
+
 .footer {
     text-align: center;
     width: 1902px; height: 230px;
@@ -506,7 +510,6 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
     width: 208px;
     height: 44px;
     line-height: 44px;
-    /* margin-left: 16px; */
     color: #222;
     margin-bottom: 10px;
     margin-left: 16px;
@@ -517,7 +520,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
 .select {
     float: left;
     color: #888;
-    /* margin-top: -50px; */
+   
 }
 .right > p {
     text-align: right;
@@ -528,7 +531,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
 }
 .right > p > span {
     font-size: 12px;
-    /* margin-left: 30px; */
+    
     padding-right: 20px;
     color: #888;
 
@@ -651,7 +654,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
     width: 208px;
     height: 44px;
     line-height: 44px;
-    /* margin-left: 16px; */
+    
     color: #222;
     margin-bottom: 10px;
     margin-left: 16px;
@@ -662,7 +665,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
 .select {
     float: left;
     color: #888;
-    /* margin-top: -50px; */
+   
 }
 .right > p {
     text-align: right;
@@ -673,7 +676,7 @@ main .notice .notice_des .button_down{position: absolute; top: 61px;}
 }
 .right > p > span {
     font-size: 12px;
-    /* margin-left: 30px; */
+   
     padding-right: 20px;
     color: #888;
 
